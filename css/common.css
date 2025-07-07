@@ -20,6 +20,12 @@ body {
   font-family: var(--font-family);
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
 /* -- Reset -- */
 a {
   text-decoration: none;
@@ -62,7 +68,7 @@ fieldset {
 
 /* == Task-1 == */
 .task-one-general-list {
-  margin-top: 24px;
+  margin: 24px;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -101,18 +107,19 @@ fieldset {
 
   padding: 8px 16px;
 }
-/* .animal-list {
-}
-.animal-litem {
-}
-.products-list {
-}
-.products-litem {
-}
-.technologies-list {
-}
-.technologies-litem {
-}
- */
 
 /* == Task 2 == */
+.gallery {
+  margin: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+
+  max-width: 1128px;
+}
+
+.gallery-item {
+  flex-basis: calc((100% - 48px) / 3);
+}
+
+/* == Task 3 == */
