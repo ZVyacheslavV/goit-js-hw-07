@@ -1,0 +1,118 @@
+/* == GLOBAL == */
+:root {
+  --font-family: "Montserrat", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #2e2f42;
+  line-height: 1.5;
+
+  font-family: var(--font-family);
+}
+
+/* -- Reset -- */
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+input {
+  font-family: inherit;
+}
+
+button {
+  font-family: inherit;
+  color: currentColor;
+  cursor: pointer;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+/* == Task-1 == */
+.task-one-general-list {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.task-one-general-litem {
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 392px;
+
+  background-color: #f6f6fe;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+
+  margin-bottom: 16px;
+}
+.task-one-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.task-one-litem {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+
+  padding: 8px 16px;
+}
+/* .animal-list {
+}
+.animal-litem {
+}
+.products-list {
+}
+.products-litem {
+}
+.technologies-list {
+}
+.technologies-litem {
+}
+ */
+
+/* == Task 2 == */
