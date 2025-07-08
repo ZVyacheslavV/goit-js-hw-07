@@ -67,14 +67,14 @@ fieldset {
 }
 
 /* == Task-1 == */
-.task-one-general-list {
+.first-general-list {
   margin: 24px;
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
-.task-one-general-litem {
+.first-general-litem {
   border-radius: 8px;
   padding: 16px;
   max-width: 392px;
@@ -90,19 +90,18 @@ fieldset {
 
   margin-bottom: 16px;
 }
-.task-one-list {
+.first-list {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
-.task-one-litem {
+.first-litem {
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.04em;
 
   border: 1px solid #808080;
   border-radius: 4px;
-  width: 360px;
+  max-width: 360px;
   height: 40px;
 
   padding: 8px 16px;
@@ -123,3 +122,123 @@ fieldset {
 }
 
 /* == Task 3 == */
+.main-input {
+  margin: 24px 24px 16px 24px;
+  width: 360px;
+  height: 40px;
+
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  padding: 8px 16px;
+}
+
+.main-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+
+  margin-left: 24px;
+}
+
+/* == Task 4 == */
+.login-form {
+  max-width: 408px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.login-label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  letter-spacing: 0.04em;
+}
+
+.login-input {
+  height: 40px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  height: 40px;
+  width: 100%;
+  padding: 8px 16px;
+
+  outline: none;
+}
+
+.login-input::placeholder {
+  letter-spacing: 0.04em;
+  color: transparent;
+}
+
+.login-input:hover,
+.login-input:focus {
+  border: 1px solid #000;
+}
+
+.login-input:active::placeholder {
+  color: #2e2f42;
+}
+
+.login-submit-btn {
+  margin-top: 8px;
+  max-width: 86px;
+  border-style: none;
+
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  border-radius: 8px;
+  max-width: 86px;
+  height: 40px;
+
+  background-color: #4e75ff;
+}
+
+.login-submit-btn:hover {
+  background-color: #6c8cff;
+}
+
+/* == Task 5 == */
+.widget {
+  margin: 24px;
+  border-radius: 8px;
+  padding: 100px 88px;
+  max-width: 345px;
+  height: 280px;
+
+  background-color: #fff;
+}
+
+.widget-text {
+  margin: 0 auto;
+  letter-spacing: 0.04em;
+}
+.color {
+  display: block;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.change-color-btn {
+  display: block;
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  border-radius: 8px;
+  max-width: 148px;
+  width: 100%;
+  height: 40px;
+  border-style: none;
+
+  background-color: #4e75ff;
+}

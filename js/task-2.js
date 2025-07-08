@@ -41,6 +41,4 @@ height="300"
   )
   .join("");
 
-console.log(galleryMarkup);
-
 galleryList.insertAdjacentHTML("beforeend", galleryMarkup);
